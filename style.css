@@ -1,0 +1,102 @@
+.body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.image-logo{
+    width: 14%;
+    color: #e50914;
+}
+.btn-sing-in{
+    background-color: #e50914;
+    color:white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
+.navbar{
+height: 10vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 1%;
+padding-left: 2vw;
+padding-right: 4vw;
+flex-direction: row;
+}
+.main-container{
+    width: 100%;
+    height: 90vh;
+  justify-content: center;
+  padding-left: 300px;
+  padding-top: 100px;
+  
+}
+.root{
+    background-image: url("https://buisnessempire.com/wp-content/uploads/2022/08/Netflix-the-low-cost-version-will-do-without-this-very.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-title-container{
+    color: white;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-title{
+    font-size: 3.2em;
+    margin-bottom: 14px;
+    font-family: sans-serif;
+
+}
+.main-subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+
+}
+.main-call-to-action{
+    font-family:Arial, Helvetica, sans-serif ;
+    font: 1.2em;
+}
+.main-email-container{
+    width: 55%;
+    height: fit-content;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.main-email-container-input{
+    outline: none;
+border: none;
+padding: 20px 10px;
+font-size: 1em;
+}
+.btn-get-started{
+    cursor: pointer;
+    padding: 18px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    background-color: #e50914;
+    color: white;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+
+
+}
+.btn-get-started:hover{
+    border-color: #f00410;
+}
